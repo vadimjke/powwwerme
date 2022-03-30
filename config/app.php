@@ -4,6 +4,10 @@ use Illuminate\Support\Facades\Facade;
 
 return [
 
+	/* VG: start deploy settings */
+	'deploy_secret' => env('APP_DEPLOY_SECRET'),
+	/* VG: end deploy settings */
+
     /*
     |--------------------------------------------------------------------------
     | Application Name

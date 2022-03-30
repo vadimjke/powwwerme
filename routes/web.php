@@ -19,4 +19,3 @@ Route::statamic('authors/{handle}', 'author.show');
 
 // Git CD
 Route::post('/deploy/', [DeployController::class, 'deploy']);
-

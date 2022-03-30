@@ -17,5 +17,5 @@ use App\Http\Controllers\DeployController;
 Route::statamic('authors', 'author.index');
 Route::statamic('authors/{handle}', 'author.show');
 
-// Git CD fixed
+// Git CD fixed (!)
 Route::post('/deploy/', [DeployController::class, 'deploy']);
